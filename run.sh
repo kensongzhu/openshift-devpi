@@ -17,7 +17,6 @@ fi
 
 devpi-server \
   --logger-cfg=/logger_cfg.json \
-  --restrict-modify root \
   --mirror-cache-expiry=${DEVPI_MIRROR_CACHE_EXPIRY} \
   --host 0.0.0.0 \
   --port 3141
